@@ -1,0 +1,55 @@
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+$light-green: #497557;
+$green: #0c4a34;
+$dark-green: #02291c;
+$text-color-dark: #214e41;
+$text-color-light: #43806c;
+$white: #ffffff;
+
+.where-data-is-used {
+  background: linear-gradient(135deg, $green, #54a04f);
+}
+
+.where-data-is-used-block {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+
+  @media (min-width: $tablet) {
+    flex-direction: row;
+  }
+}
+
+.where-data-is-used__title {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: 0;
+  color: $white;
+}
+.where-data-is-used__content {
+  width: 100%;
+
+  @media (min-width: $tablet) {
+    margin: 0 2%;
+  }
+}
+.card__image {
+  width: 100%;
+}
+.card__title {
+  margin: 7% 2%;
+  text-align: center;
+  color: $white;
+}
+.card__text {
+  margin: 10% 3%;
+  text-align: center;
+  color: $white;
+}

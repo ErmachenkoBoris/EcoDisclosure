@@ -1,0 +1,26 @@
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+.figure {
+  position: relative;
+  padding-top: 10px;
+}
+
+.figure-caption {
+  position: absolute;
+  left: 30px;
+  bottom: 40%;
+  width: 100%;
+
+  display: none;
+
+  @media (min-width: $desktop) {
+    display: block;
+  }
+}
+
+.figure-img {
+  width: 100vw;
+}

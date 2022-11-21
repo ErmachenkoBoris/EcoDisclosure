@@ -1,0 +1,156 @@
+/* Request Form */
+.form {
+  display: flex;
+}
+
+/* Input field */
+.input-field {
+  width: 25vw;
+  padding: 7px;
+  background: #ffffff;
+  border-radius: 6px 0px 0px 6px;
+  border: #ffffff;
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5px;
+  line-height: 7px;
+  color: #222222;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .input-field {
+    padding: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+@media (min-width: 1280px) {
+  .input-field {
+    width: 280px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* Input Field button */
+.button {
+  width: auto;
+  padding: 7px;
+  background: #497557;
+  border-radius: 0px 6px 6px 0px;
+  border: #497557;
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5px;
+  line-height: 7px;
+  color: #ffffff;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .button {
+    padding: 10px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}
+@media (min-width: 1280px) {
+  .button {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+/* Button */
+.submit {
+  width: 123px;
+  padding: 4px;
+  background: #497557;
+  border-radius: 6px;
+  border: #497557;
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .submit {
+    padding: 6px;
+  }
+}
+@media (min-width: 1280px) {
+  .submit {
+    padding: 10px;
+  }
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px;
+}
+@media (min-width: 768px) {
+  .nav {
+    flex-direction: row;
+    margin: 10px 45px;
+  }
+}
+
+.logo {
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .logo {
+    margin-right: auto;
+    margin-top: 0px;
+  }
+}
+
+.logo__image {
+  width: 12px;
+}
+
+.logo__text {
+  height: 12px;
+}
+
+.nav-item {
+  padding: 10px 10px;
+  font-family: "Raleway", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #214e41;
+  text-decoration: none;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .nav-item {
+    padding: 20px 30px;
+  }
+}
+@media (min-width: 1280px) {
+  .nav-item {
+    padding: 20px 50px;
+  }
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.nav-form {
+  padding-top: 10px;
+}
+@media (min-width: 768px) {
+  .nav-form {
+    padding-left: 50px;
+    padding-top: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */

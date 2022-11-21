@@ -1,0 +1,65 @@
+$default-font: "Roboto", "Times New Roman", serif;
+$second-font: "Raleway", "Times New Roman", serif;
+
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1280px;
+$large-desktop: 1560px;
+
+$green: #214e41;
+$gray: #757575;
+$text-color-dark: #214e41;
+
+.benefits__title,
+.benefits__card-title,
+.benefits__text {
+  color: $text-color-dark;
+}
+
+.benefits__header {
+  width: 90%;
+  margin: 5% auto;
+  text-align: center;
+
+  @media (min-width: $tablet) {
+    width: 50%;
+    margin: 5% auto 3% auto;
+  }
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.benefits__enumeration {
+  width: 90%;
+  padding: 20px;
+  border: 3px solid $green;
+  margin: 3%;
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    width: 25%;
+    margin: 1%;
+  }
+  @media (min-width: $desktop) {
+    width: 20%;
+  }
+}
+
+.benefits__enumeration-image {
+  width: 20%;
+
+  @media (min-width: $desktop) {
+    width: 30%;
+  }
+
+  @media (min-width: $tablet) and (max-width: $desktop) {
+    width: 15%;
+  }
+
+  @media (orientation: landscape) {
+    width: 15%;
+  }
+}

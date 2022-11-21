@@ -1,0 +1,60 @@
+.benefits__title,
+.benefits__card-title,
+.benefits__text {
+  color: #214e41;
+}
+
+.benefits__header {
+  width: 90%;
+  margin: 5% auto;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .benefits__header {
+    width: 50%;
+    margin: 5% auto 3% auto;
+  }
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.benefits__enumeration {
+  width: 90%;
+  padding: 20px;
+  border: 3px solid #214e41;
+  margin: 3%;
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .benefits__enumeration {
+    width: 25%;
+    margin: 1%;
+  }
+}
+@media (min-width: 1280px) {
+  .benefits__enumeration {
+    width: 20%;
+  }
+}
+
+.benefits__enumeration-image {
+  width: 20%;
+}
+@media (min-width: 1280px) {
+  .benefits__enumeration-image {
+    width: 30%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1280px) {
+  .benefits__enumeration-image {
+    width: 15%;
+  }
+}
+@media (orientation: landscape) {
+  .benefits__enumeration-image {
+    width: 15%;
+  }
+}/*# sourceMappingURL=benefits.css.map */
